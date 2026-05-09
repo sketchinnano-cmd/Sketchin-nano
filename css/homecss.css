@@ -1,0 +1,136 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: white;
+}
+/* Base Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2e2e2e;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #728a9c;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 0.9rem;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.social-links {
+    text-align: right;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.social-item {
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+/* About Section with Notch */
+.about-container {
+    background-color: #aed6d1;
+    position: relative;
+    padding-top: 60px;
+    color: #2e2e2e;
+}
+
+.circle-notch {
+    width: 60px;
+    height: 30px;
+    background-color: #aed6d1;
+    border-radius: 0 0 60px 60px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about-content {
+    background-color: #2e2e2e;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.badge {
+    background-color: #728a9c;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Services */
+.services h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.service-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.light-blue { background-color: #728a9c; }
+.dark-blue { background-color: #3b5998; }
+
+.icon-placeholder {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    margin: 0 15px;
+}
+
+/* Button */
+.cta-button {
+    background-color: #aed6d1;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+}
